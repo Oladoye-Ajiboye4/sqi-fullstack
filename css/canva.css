@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url('../images/canva-bg.jpg');
+    background-image: url('images/canva-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -61,7 +61,7 @@ button{
 }
 
 .img{
-    background-image: url('../images/sect1.jpg');
+    background-image: url('images/sect1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     /* padding: 20px 10px 200px 20px; */
@@ -74,22 +74,22 @@ button{
 }
 
 .sect2{
-    background-image: url('../images/sect2.jpg');
+    background-image: url('images/sect2.jpg');
 }
 .sect3{
-    background-image: url('../images/sect3.jpg');
+    background-image: url('images/sect3.jpg');
 }
 .sect4{
-    background-image: url('../images/sect4.jpg');
+    background-image: url('images/sect4.jpg');
 }
 .sect5{
-    background-image: url('../images/sect5.jpg');
+    background-image: url('images/sect5.jpg');
 }
 .sect6{
-    background-image: url('../images/sect6.jpg');
+    background-image: url('images/sect6.jpg');
 }
 .sect7{
-    background-image: url('../images/sect7.jpg');
+    background-image: url('images/sect7.jpg');
 }
 
 .sect-text{
