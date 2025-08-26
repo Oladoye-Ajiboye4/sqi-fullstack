@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap')
+
+*, *::before, *::after { 
+    box-sizing: 
+    border-box; 
+    margin: 0; 
+    padding: 0;
+    
+}
+main{ 
+    /* padding: 10px; */
+    display: flex;
+    height: 100vh;
+    font-family: Sans-Serif;
+    /* align-content: center; */
+}
+
+.container1{
+    display: flex;
+    /* align-content: center;*/
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    padding: 10px;
+}
+h1{
+    font-family: "Nunito";
+    
+}
+#canva{
+    background: linear-gradient(to right, #9de9fcf7, purple);
+    background-clip: text;
+    color: transparent;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.opt-container{
+    padding-right: 50px;
+}
+.option{
+    display: flex;
+    align-items: center;
+    border: 1px solid #666666e3;
+    width: 100%;
+    height: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    gap: 10px;
+}
+
+.container2{
+    background-image: linear-gradient(120deg, #fec330 68%, #ffe77b);
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    gap: 10px;
+    
+}
+
+#btn{
+    background-color: #cdcdcd;
+    width: 100%;
+    height: 50px;
+    padding: 6px;
+    color: #585454;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.flier{
+    width: 150px;
+    height: 200px;
+    border: none;
+    border-radius: 7px;
+    /* position: relative; */
+}
+.crown{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+    background-color: #858484;
+    border: none;
+    border-radius: 15px;
+    padding: 4px;
+    /* right: 50px; */
+}
+
+.one, .three, .five{
+    margin-top: 80px;
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap')
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+    /* font-family: Sans-Serif; */
+
+}
+
+body {
+    background-image: url('../images/canva-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-section{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+h1{
+    font-weight: normal;
+    font-family: "Nunito";
+}
+.first-section p{
+    font-size: 15px;
+    margin: 20px 10px;
+}
+.first-section span{
+    background: linear-gradient(to right, purple, blue);
+    background-clip: text;
+    color: transparent;
+}
+
+button{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: #a067f7e9;
+}
+
+.second-section{
+    margin-top: 80px;
+    width:1000px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: Sans-Serif;
+    gap: 10px;
+    color: white;
+}
+
+.img{
+    background-image: url('../images/sect1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 20px 10px 200px 20px; */
+    border: none;
+    box-shadow: 5px 5px 5px #e3edf7b0;
+    border-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    width: 600px;
+    height: 200px;
+}
+
+.sect2{
+    background-image: url('../images/sect2.jpg');
+}
+.sect3{
+    background-image: url('../images/sect3.jpg');
+}
+.sect4{
+    background-image: url('../images/sect4.jpg');
+}
+.sect5{
+    background-image: url('../images/sect5.jpg');
+}
+.sect6{
+    background-image: url('../images/sect6.jpg');
+}
+.sect7{
+    background-image: url('../images/sect7.jpg');
+}
+
+.sect-text{
+    padding: 10px 0px 0px 20px;
+}
