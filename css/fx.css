@@ -162,6 +162,7 @@ small{
 }
 
 .flexed{
+    width: 200px;
     height: 50px;
     background-color: #202020;
     border-radius: 10px;
@@ -188,19 +189,41 @@ small{
 .dropdown{
     color: grey;
 }
-
-.hoverEffect{
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    background-color: #373737;
-    display: none;
-    position: absolute;
-}
 .flexone{
     position: relative;
 
 }
+.hoverEffect{
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #373737;
+    display: none;
+    position: absolute;
+    margin-left: -185px;
+    bottom: 0px;
+    padding: 7px;
+}
+.hoverEffect span{
+    color: white;
+}
 .flexone:hover .hoverEffect{
     display: block;
 }
+.flextwo{
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    width: 220px;
+    height: 200px;
+    background-color: #373737;
+    border-radius: 10px;
+    margin-top: -145px;
+    right: 4px;
+    display: none;
+}
+
+.flextwo:hover .dropdown{
+    display: block;
+}+

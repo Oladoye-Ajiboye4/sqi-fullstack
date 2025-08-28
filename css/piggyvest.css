@@ -1,0 +1,195 @@
+body{
+    background-color: #F2F7F8;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 20px 30px 30px 50px;
+    height: 100px;
+    font-weight: bold;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    
+    
+}
+#logo:hover{
+    width: 190px;
+    height: 170px;
+    cursor: pointer;
+}
+.left-nav div{
+    margin-left: 20px;
+}
+.key-navs{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    
+}
+
+.dropdown{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.menu{
+    position: relative
+}
+.save-dropdown, .resources-dropdown{
+    padding: 5px;
+    width: 500px;
+    height: 260px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    right: 2px;
+    margin-right: -20px;
+    box-shadow: 3px #f9fdfb87;
+    box-sizing: border-box;
+    display: none;
+}
+.save:hover .save-dropdown, .resources:hover .resources-dropdown{
+    display: flex;
+    align-items: center;
+
+}
+
+.resources:hover .resources-dropdown{
+    left: 500px;
+}
+
+.icon-group{
+    display: flex;
+    align-items: center;
+}
+.icons{
+    width: 35px;
+}
+.left-side, .right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.right-nav{
+    display: flex;
+    gap: 10px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.icon-text{
+    font-weight: normal;}
+#sign-in{
+    padding: 15px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#account{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.icon-group:hover{
+    background-color: #F8FBFB;
+    padding: 10px;
+    border-radius: 10px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 70px;
+    margin-top: 80px;
+}
+
+.report{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0088FE;
+    color: white;
+    width: 350px;
+    padding: 7px;
+    border: none;
+    border-radius: 30px;
+}
+
+#device{
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #EFD90D;
+    height: 30px;
+    width: 30px;
+}
+
+.report:hover{
+    background-color: black;
+}
+.report:hover #device{
+    background-color: #0088FE;
+}
+.report:hover #arrow{
+    width: 15px;
+}
+
+.text{
+    width: 500px;
+}
+
+.text h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 20px;
+}
+.text p{
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.stores{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.app{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    gap: 5px;
+}
+
+.picture-con{
+
+}
+.picture-con img{
+    border: 20px solid white;
+    border-radius: 30px;
+    height: 500px;
+    width: 500px;
+}
